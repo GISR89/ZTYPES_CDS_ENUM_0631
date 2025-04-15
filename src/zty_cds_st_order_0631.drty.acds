@@ -1,0 +1,2 @@
+@EndUserText.label: 'CDS – Tipos y Enumeraciones'
+define type zty_cds_st_order_0631 : abap.char(10)

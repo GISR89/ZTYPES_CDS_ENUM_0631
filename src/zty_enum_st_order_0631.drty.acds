@@ -1,0 +1,14 @@
+@EndUserText.label: 'CDS – Tipos y Enumeraciones'
+define type zty_enum_st_order_0631 : abap.char(2) enum
+{
+  @EndUserText.label: 'Status - Draft'
+  Draft      = initial;
+  @EndUserText.label: 'Status - Processing'
+  Processing = '01';
+  @EndUserText.label: 'Status - Shipped'
+  Shipped    = '02';
+  @EndUserText.label: 'Status - Delivered'
+  Delivered  = '03';
+  @EndUserText.label: 'Status - Cancelled'
+  Cancelled  = '04';
+}
